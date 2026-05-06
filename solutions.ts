@@ -9,3 +9,9 @@ const filterEvenNumbers = (arr: number[]) => {
 console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6]));
 
 // problem 2 
+const reverseString = (str:string) => {
+    const reverseString = str.split("").reverse().join("").toString();
+    return reverseString;
+}
+
+console.log(reverseString("typescript"));
