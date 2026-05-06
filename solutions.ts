@@ -15,3 +15,13 @@ const reverseString = (str:string) => {
 }
 
 console.log(reverseString("typescript"));
+
+// problem 3
+
+
+
+
+// problem 4 
+// problem 5 
+// problem 6 
+// problem 7 
