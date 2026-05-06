@@ -18,7 +18,16 @@ console.log(reverseString("typescript"));
 
 // problem 3
 
+type StringOrNumber = string | number ;
 
+const checkType = (stn : StringOrNumber) => {
+    if (typeof stn === "string") {
+        return "String"
+    }else if (typeof stn === "number"){
+        return "Number"
+    }
+}
+console.log(checkType(4555));
 
 
 // problem 4 
