@@ -1,4 +1,4 @@
-### Blog Topics:
+
 
 ## any 
 We use Typescript for type safety. But when we use `any` type, it allows every type. Which is not a safer choice. `any` means it checked nothing. So its never handle unpredictable data.
