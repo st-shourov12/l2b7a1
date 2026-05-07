@@ -1,10 +1,10 @@
-# How do `Generics` allow you to build reusable components and functions that stay strictly typed regardless of the data structures passed in?
+### How do `Generics` allow you to build reusable components and functions that stay strictly typed regardless of the data structures passed in?
 
-## Generics
+# Generics
 
-Generics means passing type as parameter and making code reuseable for multiple type without sacrificing type safety.
+Generics in TypeScript allow us to create reusable components, functions, interfaces, and types while maintaining strict type safety.
 
-We can use generics array following the below code ; 
+Instead of writing separate code for different data types, Generics let us pass types as parameters. This makes the code flexible, reusable, and strongly typed.
 
 ```typescript
 // dynamically generalize

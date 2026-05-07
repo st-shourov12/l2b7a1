@@ -1,18 +1,18 @@
 
-# Why is any labeled a "type safety hole," and why is unknown the safer choice for handling unpredictable data? Explain the concept of type narrowing.
+### Why is any labeled a "type safety hole," and why is unknown the safer choice for handling unpredictable data? Explain the concept of type narrowing.
 
-## any 
+# any 
 We use Typescript for type safety. But when we use `any` type, it allows every type. Which is not a safer choice. `any` means it checked nothing. So its never handle unpredictable data.
 
 if we use `any` it allows everything. So we can call every method, which can crash on runtime . Thats called type safety hole. We use typescript for type safety and catch the error before the runtime . But `any` cant do anything of them; which means my using typescript is going to be in vain . 
 
-## unknown
-Instead we can use `unknown` for safer choice. When we use `unknown`, firstly it checks the type then it decides is this safe or unsafe for use. If the data is unsafe it instantly blocked it. 
+# unknown
+Instead of `any` we can use `unknown` for safer choice. When we use `unknown`, firstly it checks the type then it decides is this safe or unsafe for use. If the data is unsafe it instantly blocked it. 
 
 The differnces between `any` and `unknown` are : `any` does not check the type , `unknown` does it . 
 
 
-## type narrowing
+# type narrowing
 type narrowing means it can get specific type from broad type ,
 
 ```typescript
