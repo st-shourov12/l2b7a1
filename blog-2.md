@@ -124,7 +124,7 @@ Here `T` is the type variable for parameter. We can use it for multiple type lik
 We can use multiple type variable in one function using tuple like `creatArrayTupleWithGeneric`.
 
 Without generics we have to call separate function for every type.
-Using Generics we can call multiple type with one function.
+Using Generics we can call multiple type with one function and it stay strictly typed regardless of the data structures passed in.
 
 
 
