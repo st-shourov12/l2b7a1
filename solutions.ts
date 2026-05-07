@@ -23,10 +23,11 @@ type StringOrNumber = string | number ;
 const checkType = (stn : StringOrNumber) => {
     if (typeof stn === "string") {
         return "String"
-    }else if (typeof stn === "number"){
+    }else{
         return "Number"
     }
 }
+
 
 
 
@@ -80,17 +81,15 @@ class Student extends Person {
 
 // problem 7 
 
-const getIntersection = (arr1 :number[], arr2:number[]) => {
+const getIntersection = (arr1 :number[], arr2:number[]) : number[] => {
     if (arr1.length >= arr2.length) {
-       const arr = arr1.filter((item) => arr2.includes(item))
-       return arr;
-    }else if (arr2.length > arr1.length) {
-       const arr = arr2.filter((item) => arr1.includes(item))
-       return arr;
+       return arr1.filter((item) => arr2.includes(item))
+      
+    }else{
+       return arr2.filter((item) => arr1.includes(item))
+       
     }
 }
-
-
 
 
 
