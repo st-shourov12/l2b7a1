@@ -45,17 +45,17 @@ interface Book {
     title : string;
     author: string;
     publishedYear : number;
+    isRead? : boolean
     
 }
 
-const toggleReadStatus = (obj : Book) : Book & {isRead : boolean} => {
+const toggleReadStatus = (obj : Book)  : Book  => {
 
     return {
         ...obj,
-        isRead : true
+        isRead : !obj?.isRead
     }
 }
-
 
 
 // problem 6 
@@ -71,7 +71,7 @@ class Student extends Person {
         super(Name, Age)
     }
     getDetails () {
-        return (`Name: ${this.Name}, Age:${this.Age}, Grade:${this.Grade}`)
+        return (`Name: ${this.Name}, Age: ${this.Age}, Grade: ${this.Grade}`)
     }
 }
 
