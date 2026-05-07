@@ -1,4 +1,6 @@
-# Generics
+# How do `Generics` allow you to build reusable components and functions that stay strictly typed regardless of the data structures passed in?
+
+## Generics
 
 Generics means passing type as parameter and making code reuseable for multiple type without sacrificing type safety.
 
